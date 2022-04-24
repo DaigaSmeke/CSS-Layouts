@@ -1,0 +1,30 @@
+html, body {
+    height:100%;
+}
+body {
+    background-color: darkgrey;
+}
+
+header {
+    background-color: burlywood;
+}
+
+nav {
+    background-color: rgb(236, 169, 81);
+}
+
+main {
+    background-color: rgb(160, 100, 23);
+}
+
+footer {
+    background-color: rgb(70, 41, 4);
+}
+
+aside {
+    background-color: rgb(37, 22, 1);
+}
+
+.div1, .div2 {
+    background-color: coral;
+}

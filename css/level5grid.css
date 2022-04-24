@@ -1,0 +1,22 @@
+/*let's try this, maybe less frustrating*/
+body {
+    display:grid;
+    grid: auto-flow auto / 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header    header  header  header"
+                         "nav       div1    div1    aside"
+                         "nav       main    main    aside"
+                         "nav       main    main    aside"
+                         "nav       main    main    aside"
+                         "footer    footer  footer  footer";
+    grid-gap: 5px;
+    margin: 5px;
+    }
+
+header { grid-area: header; }
+nav { grid-area: nav; }
+.div1 {grid-area: div1;}
+aside { grid-area: aside; }
+main { grid-area: main; }
+footer { grid-area: footer; }
+
+/*It was not :(*/

@@ -1,0 +1,8 @@
+body {
+    height: 100%;
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+    gap: 5px;
+    margin: 5px;
+}
+
